@@ -1,11 +1,15 @@
 name: nlp  # Name of the conda environment
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - ipykernel
   - ipywidgets
   - pandas
   - numpy
+  - matplotlib
+  - tensorflow
+  - tensorflow-datasets
   - pip:  
     - jax[cuda12_pip]
     - --find-links https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
