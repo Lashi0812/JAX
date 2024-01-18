@@ -1,0 +1,11 @@
+name: nlp  # Name of the conda environment
+channels:
+  - defaults
+dependencies:
+  - ipykernel
+  - ipywidgets
+  - pandas
+  - numpy
+  - pip:  
+    - jax[cuda12_pip]
+    - --find-links https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
