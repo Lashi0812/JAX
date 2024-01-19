@@ -11,11 +11,12 @@
                 "ms-toolsai.jupyter",
                 "eamodio.gitlens",
                 "streetsidesoftware.code-spell-checker",
-                "ms-vscode.cmake-tools" ,
+                "ms-vscode.cmake-tools",
                 "NVIDIA.nsight-vscode-edition",
                 "augustocdias.tasks-shell-input",
                 "James-Yu.latex-workshop",
-                "llvm-vs-code-extensions.vscode-clangd"
+                "llvm-vs-code-extensions.vscode-clangd",
+                "ms-python.black-formatter"
             ],
             "settings": {
                 "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
