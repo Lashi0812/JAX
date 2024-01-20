@@ -1,5 +1,7 @@
 {
     "cSpell.ignoreWords": [
+        "jacfwd",
+        "jacrev",
         "jaxpr",
         "logsumexp",
         "sympy"
